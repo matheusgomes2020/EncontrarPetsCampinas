@@ -58,7 +58,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyC-sxnSiBFs7_DWmNivxYF8wi_tGHdVo2g" />
+            android:value="" />
 
         <activity
             android:name=".activity.VerNoMapaActivity"
