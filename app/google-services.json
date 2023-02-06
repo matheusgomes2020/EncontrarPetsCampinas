@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "760576126450",
+    "project_id": "encontrar-pets-campinas",
+    "storage_bucket": "encontrar-pets-campinas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760576126450:android:2d429f82d8bd5abc108f6b",
+        "android_client_info": {
+          "package_name": "com.cursoandroid.encontrarpetscampinas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760576126450-638f3nritso7099bnsogaooji8lp7dis.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cursoandroid.encontrarpetscampinas",
+            "certificate_hash": "11b92d39eda6c1ce7229aaa5170b2f78314ba21a"
+          }
+        },
+        {
+          "client_id": "760576126450-vtghf5dhag3o7eji7p87ir0hqlp3h2bv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG6F0Z3b5WNyoOeEfCRb7JWC4OlUb9O_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760576126450-vtghf5dhag3o7eji7p87ir0hqlp3h2bv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

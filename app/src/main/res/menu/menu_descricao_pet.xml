@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/group_favoritado" android:visible="false" >
+
+        <item android:id="@+id/favorito"
+            android:title="Desmarcar favorito"
+            android:icon="@drawable/ic_baseline_favorite_24"
+            app:showAsAction="always"/>
+
+    </group>
+
+    <group android:id="@+id/group_nao_favoritado" android:visible="false" >
+
+        <item android:id="@+id/nao_favorito"
+            android:title="Marcar favorito"
+            android:icon="@drawable/ic_baseline_favorite_border_24"
+            app:showAsAction="always"/>
+
+    </group>
+
+
+
+</menu>

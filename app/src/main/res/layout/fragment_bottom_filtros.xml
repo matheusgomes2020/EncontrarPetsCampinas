@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/textTempoDesaparecimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Ordenar por"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chip_group_tempo_desaparecimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipHoje"
+                style="@style/Widget.MaterialComponents.Chip.Entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nome"
+                app:chipBackgroundColor="@android:color/transparent"
+                app:chipIcon="@drawable/ic_baseline_people_24"
+                app:chipIconSize="30dp"
+                app:closeIconEnabled="false" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipSemana"
+                style="@style/Widget.MaterialComponents.Chip.Entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="data perdido"
+                app:chipBackgroundColor="@android:color/transparent"
+                app:chipIcon="@drawable/ic_baseline_date_range_24"
+                app:chipIconSize="30dp"
+                app:closeIconEnabled="false" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipMes"
+                style="@style/Widget.MaterialComponents.Chip.Entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="espécie"
+                app:chipBackgroundColor="@android:color/transparent"
+                app:chipIcon="@drawable/pets2"
+                app:chipIconSize="30dp"
+                app:closeIconEnabled="false" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipRaca"
+                style="@style/Widget.MaterialComponents.Chip.Entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="raça"
+                app:chipBackgroundColor="@android:color/transparent"
+                app:chipIcon="@drawable/ic_baseline_pets_24"
+                app:chipIconSize="30dp"
+                app:closeIconEnabled="false" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipIdade"
+                style="@style/Widget.MaterialComponents.Chip.Entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="idade"
+                app:chipBackgroundColor="@android:color/transparent"
+                app:chipIcon="@drawable/age245"
+                app:chipIconSize="30dp"
+                app:closeIconEnabled="false" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipbairro"
+                style="@style/Widget.MaterialComponents.Chip.Entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bairro"
+                app:chipBackgroundColor="@android:color/transparent"
+                app:chipIcon="@drawable/ic_localizacao_laranja"
+                app:chipIconSize="30dp"
+                app:closeIconEnabled="false" />
+
+
+        </com.google.android.material.chip.ChipGroup>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Espécie"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chip_group_filtro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip8"
+                style="@style/Widget.MaterialComponents.Chip.Entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cachorro"
+                app:chipBackgroundColor="@android:color/transparent"
+                app:chipIcon="@drawable/dog1"
+                app:chipIconSize="30dp"
+                app:closeIconEnabled="false" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipGato"
+                style="@style/Widget.MaterialComponents.Chip.Entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="gato"
+                app:chipBackgroundColor="@android:color/transparent"
+                app:chipIcon="@drawable/cat1"
+                app:chipIconSize="30dp"
+                app:closeIconEnabled="false" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipHamster"
+                style="@style/Widget.MaterialComponents.Chip.Entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hamster"
+                app:chipBackgroundColor="@android:color/transparent"
+                app:chipIcon="@drawable/hamster1"
+                app:chipIconSize="30dp"
+                app:closeIconEnabled="false" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipCoelho"
+                style="@style/Widget.MaterialComponents.Chip.Entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="coelho"
+                app:chipBackgroundColor="@android:color/transparent"
+                app:chipIcon="@drawable/rabbit1"
+                app:chipIconSize="30dp"
+                app:closeIconEnabled="false" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipTartaruga"
+                style="@style/Widget.MaterialComponents.Chip.Entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tartaruga"
+                app:chipBackgroundColor="@android:color/transparent"
+                app:chipIcon="@drawable/turtle1"
+                app:chipIconSize="30dp"
+                app:closeIconEnabled="false" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipAves"
+                style="@style/Widget.MaterialComponents.Chip.Entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="aves"
+                app:chipBackgroundColor="@android:color/transparent"
+                app:chipIcon="@drawable/bird1"
+                app:chipIconSize="30dp"
+                app:closeIconEnabled="false" />
+
+        </com.google.android.material.chip.ChipGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Idade"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chip_group_idade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipJovem"
+                style="@style/Widget.MaterialComponents.Chip.Entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jovem"
+                app:chipBackgroundColor="@android:color/transparent"
+                app:chipIcon="@drawable/agebaby"
+                app:chipIconSize="30dp"
+                app:closeIconEnabled="false" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipNormal"
+                style="@style/Widget.MaterialComponents.Chip.Entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="normal"
+                app:chipBackgroundColor="@android:color/transparent"
+                app:chipIcon="@drawable/agenormal"
+                app:chipIconSize="30dp"
+                app:closeIconEnabled="false" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipIdoso"
+                style="@style/Widget.MaterialComponents.Chip.Entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="idoso"
+                app:chipBackgroundColor="@android:color/transparent"
+                app:chipIcon="@drawable/agesenior"
+                app:chipIconSize="30dp"
+                app:closeIconEnabled="false" />
+
+
+        </com.google.android.material.chip.ChipGroup>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonLimpar"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:layout_weight="1"
+                android:text="Limpar" />
+
+            <Button
+                android:id="@+id/buttonOk"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:text="Ok" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

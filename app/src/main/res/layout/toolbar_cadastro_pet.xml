@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#E4DEDE"
+    android:paddingBottom="1dp">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarCadastroPets"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:theme="@style/Toolbar"
+        app:title="Novo Pet"
+        app:titleTextColor="#000000" />
+
+
+
+</FrameLayout>

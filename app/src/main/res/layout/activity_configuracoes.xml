@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".activity.ConfiguracoesActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Política de privacidade"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="Tipos de Dados coletados"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Entre os tipos de Dados Pessoais que este Aplicativo coleta, por si mesmo ou através de terceiros, existem: nome; número de telefone; e-mail; foto de perfil; posição geográfica." />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Detalhes completos sobre cada tipo de Dados Pessoais coletados são fornecidos nas seções dedicadas desta política de privacidade ou por textos explicativos específicos exibidos antes da coleta de Dados." />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Os Dados Pessoais poderão ser fornecidos livremente pelo Usuário, ou, no caso dos Dados de Utilização, coletados automaticamente ao se utilizar este Aplicativo." />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="A menos que especificado diferentemente todos os Dados solicitados por este Aplicativo são obrigatórios e a falta de fornecimento destes Dados poderá impossibilitar este Aplicativo de fornecer os seus Serviços. Nos casos em que este Aplicativo afirmar especificamente que alguns Dados não forem obrigatórios, os Usuários ficam livres para deixarem de comunicar estes Dados sem nenhuma consequência para a disponibilidade ou o funcionamento do Serviço." />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Os Usuários que tiverem dúvidas a respeito de quais Dados Pessoais são obrigatórios estão convidados a entrar em contato com o Proprietário." />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Aplicativo serão para a finalidade de fornecer os Serviços solicitados pelo Usuário, além das demais finalidades descritas no presente documento e na Política de Cookies, se estiver disponível." />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Os Usuários ficam responsáveis por quaisquer Dados Pessoais de terceiros que forem obtidos, publicados ou compartilhados através deste Serviço (este Aplicativo) e confirmam que possuem a autorização dos terceiros para fornecerem os Dados para o Proprietário." />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Modo e local de processamento dos Dados"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="Método de processamento"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="O Proprietário tomará as medidas de segurança adequadas para impedir o acesso não autorizado, divulgação, alteração ou destruição não autorizada dos Dados." />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="O Proprietário tomará as medidas de segurança adequadas para impedir o acesso não autorizado, divulgação, alteração ou destruição não autorizada dos Dados. O processamento dos Dados é realizado utilizando computadores e /ou ferramentas de TI habilitadas, seguindo procedimentos organizacionais e meios estritamente relacionados com os fins indicados. Além do Proprietário, em alguns casos, os Dados podem ser acessados por certos tipos de pessoas encarregadas, envolvidas com a operação deste Serviço (este Aplicativo) (administração, vendas, marketing, administração legal do sistema) ou pessoas externas (como fornecedores terceirizados de serviços técnicos, carteiros, provedores de hospedagem, empresas de TI, agências de comunicação) nomeadas, quando necessário, como Processadores de Dados por parte do Proprietário. A lista atualizada destas partes pode ser solicitada ao Proprietário a qualquer momento." />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Base jurídica para o processamento"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="O Proprietário poderá processar os Dados Pessoais relacionados ao Usuário se uma das hipóteses a seguir se aplicar:" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="os Usuários tenham dado a sua anuência para uma ou mais finalidades específicas; Observação: De acordo com algumas legislações o Proprietário poderá ter a permissão para processar os Dados Pessoais ATÉ QUE O Usuário faça objeção a isto (“opt-out”), sem ter que se basear em anuência ou em quaisquer outras bases jurídicas a seguir. Isto contudo não se aplica sempre que o processamento de Dados Pessoais estiver sujeito à legislação europeia de proteção de dados; o fornecimento dos Dados for necessário para o cumprimento de um contrato com o Usuário e/ou quaisquer obrigações pré-contratuais do mesmo;" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="o processamento for necessário para o cumprimento de uma obrigação jurídica à qual o Proprietário estiver sujeito;" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="o processamento estiver relacionado a uma tarefa que for executada no interesse público ou no exercício de uma autorização oficial na qual o Proprietário estiver investido;" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="o processamento for necessário para a finalidade de interesses legítimos perseguidos pelo Proprietário ou por um terceiro;" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Em qualquer caso, o Proprietário colaborará de bom grado para esclarecer qual a base jurídica que se aplica ao processamento, e em especial se o fornecimento de Dados for um requisito obrigatório por força de lei ou contratual, ou uma exigência necessária para celebrar um contrato." />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Lugar"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Os dados são processados ​​nas sedes de operação dos Proprietários, e em quaisquer outros lugares onde as partes envolvidas com o processamento estiverem localizadas." />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Dependendo da localização do Usuário as transferências de dados poderão envolver a transferência dos Dados do Usuário para outro país que não seja o seu. Para descobrirem mais sobre o local de processamento de tais Dados transferidos os Usuários poderão verificar a seção contendo os detalhes sobre o processamento de Dados Pessoais." />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Os Usuários também possuem o direito de serem informados sobre a base jurídica das transferências de Dados para países de fora da União Europeia ou para quaisquer organizações internacionais regidas pelo direito internacional público ou formadas por dois ou mais países, tal como a ONU, e sobre as medidas de segurança tomadas pelo Proprietário para proteger os seus Dados." />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Se ocorrerem quaisquer tais transferências os Usuários poderão descobrir mais a respeito verificando as seções pertinentes deste documento ou perguntando ao Proprietário utilizando as informações fornecidas na seção de contatos." />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Período de conservação"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Os Dados Pessoais serão processados e armazenados pelo tempo que for necessário para as finalidades para as quais forem coletados." />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Portanto:" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Os Dados Pessoais coletados para as finalidades relacionadas com a execução de um contrato entre o Proprietário e o Usuário serão conservados até que tal contrato tenha sido completamente cumprido." />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Os Dados Pessoais coletados para as finalidades relacionadas com os legítimos interesses do Proprietário serão conservados pelo tempo que for necessário para cumprir tais finalidades. Os Usuários poderão obter informações específicas sobre os interesses legítimos perseguidos pelo Proprietário dentro das seções pertinentes deste documento ou entrando em contato com o Proprietário." />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="O Proprietário poderá ter a permissão de conservar os Dados Pessoais por um prazo maior sempre que o Usuário tiver dado a sua autorização para tal processamento, enquanto tal autorização não tiver sido retirada. Além disso, o Proprietário poderá ficar obrigado a conservar os Dados Pessoais por um prazo maior em todas as ocasiões em que estiver obrigado a fazê-lo para o cumprimento de uma obrigação jurídica ou em cumprimento de um mandado de uma autoridade." />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Assim que o prazo de conservação vencer os Dados Pessoais serão apagados. Desta forma o direito de acessar, o direito de apagar, o direito de corrigir e o direito à portabilidade dos dados não poderão ter o seu cumprimento exigido após o vencimento do prazo de conservação." />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="As finalidades do processamento"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Os Dados relativos ao Usuário são coletados para permitir que o Proprietário preste seu Serviço, cumpra suas obrigações legais, responda a solicitações de execução, proteja seus direitos e interesses (ou aqueles de seus Usuários ou terceiros), detecte qualquer atividade maliciosa ou fraudulenta, assim como: Registro e autenticação e Interações baseadas na localização." />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Para obter informações específicas sobre os Dados Pessoais utilizados para cada finalidade, o Usuário poderá consultar a seção “Informações detalhadas sobre o processamento de Dados Pessoais”." />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Informações detalhadas sobre o processamento de Dados Pessoais"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Os Dados Pessoais são recolhidos para os seguintes fins e utilizando os seguintes serviços:" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Interações baseadas na localização"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Geolocation (este Aplicativo)"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Este Aplicativo pode coletar, usar e compartilhar a localização de dados do usuário a fim de fornecer serviços baseados em localização. A maioria dos navegadores e dispositivos fornecem ferramentas para optar o não uso este recurso de padrão. Se a autorização explícita foi fornecida, os dados de localização do Usuário podem serem rastreado por este Aplicativo. Dados Pessoais processados: posição geográfica." />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Registro e autenticação"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ao se registrar ou autenticar, os Usuários permitem a este serviço (este Aplicativo) identificá-los e dar-lhes o acesso a serviços dedicados. Dependendo do que estiver descrito abaixo, os serviços de registro e autenticação podem ser fornecidos por terceiros. Neste caso, este Aplicativo poderá acessar alguns Dados armazenados por estes serviços de terceiros para fins de registro ou identificação." />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Alguns dos serviços listados abaixo também podem coletar Dados Pessoais para fins de direcionamento e perfil; para saber mais, consulte a descrição de cada serviço." />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Registro e autenticação"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Firebase Authentication (Google LLC)"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="O Firebase Authentication é um serviço de registro e autenticação fornecido pela Google LLC. Para simplificar o processo de registro e autenticação, o Firebase Authentication pode fazer uso de outros fornecedores de identidade e salvar as informações em sua plataforma." />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dados Pessoais processados: e-mail; nome; número de telefone;foto de perfil." />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Lugar de processamento: EUA – Política de Privacidade." />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Definições e referências jurídicas" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dados Pessoais (ou Dados)" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Quaisquer informações que diretamente, indiretamente ou em relação com outras informações – incluindo um número de identificação pessoal – permitam a identificação ou identificabilidade de uma pessoa física." />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:text="Os direitos dos Usuários"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:text="Os Usuários poderão exercer determinados direitos a respeito dos seus Dados processados pelo Proprietário." />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:text="Em especial, os Usuários possuem os direitos a fazer o seguinte:" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Retirar a sua anuência a qualquer momento. Os Usuários possuem o direito de retirar a sua anuência nos casos em que tenham dado a sua anuência anteriormente para o processamento dos seus Dados Pessoais." />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Retirar a sua anuência a qualquer momento. Os Usuários possuem o direito de retirar a sua anuência nos casos em que tenham dado a sua anuência anteriormente para o processamento dos seus Dados Pessoais." />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Acessar os seus Dados. Os Usuários possuem o direito de saber se os seus Dados estão sendo tratados pelo Proprietário, obter revelações sobre determinados aspectos do tratamento e conseguir uma cópia dos Dados que estiverem sendo tratados." />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Verificar e pedir retificação. Os Usuários possuem o direito de verificar a exatidão dos seus Dados e de pedir que os mesmos sejam atualizados ou corrigidos." />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Restringir o processamento dos seus Dados. Os Usuários possuem o direito de, sob determinadas circunstâncias, restringir o processamento dos seus Dados para qualquer outra finalidade que não seja o armazenamento dos mesmos." />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ter os seus Dados Pessoais apagados ou retirados de outra maneira. Os Usuários possuem o direito de, sob determinadas circunstâncias, obter a eliminação dos seus Dados do Proprietário." />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Receber os seus Dados e ter os mesmos transferidos para outro controlador. Os Usuários possuem o direito de receber os seus Dados em um formato estruturado, utilizado comumente e apto a ser lido por máquinas e, se for viável tecnicamente, fazer com que os mesmos sejam transmitidos para outro controlador sem nenhum empecilho. Esta determinação se aplica condicionada a que os Dados sejam processados por meios automatizados e que o processamento esteja baseado na anuência do Usuário, em um contrato do qual o Usuário seja uma das partes ou por obrigações pré-contratuais do mesmo." />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Registrar uma reclamação. Os Usuários possuem o direito de apresentar reclamação perante a sua autoridade de proteção de dados competente." />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="Detalhes sobre o direito de objetar ao processamento"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Nos casos em que os Dados Pessoais forem processados por um interesse público, no exercício de uma autorização oficial na qual o Proprietário estiver investido ou para finalidades dos interesses legítimos perseguidos pelo Proprietário, os Usuários poderão objetar tal processamento através do fornecimento de um motivo relacionado com a sua situação em especial para justificar a objeção." />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:text="Os Usuários devem saber, entretanto, que caso os seus Dados Pessoais sejam processados para finalidades de marketing direto eles podem objetar tal processamento a qualquer momento sem fornecer nenhuma justificativa. Os Usuários podem consultar as seções respectivas deste documento." />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Como exercer estes direitos"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Informações adicionais sobre a coleta e processamento de Dados  " />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:text="Informações adicionais sobre a coleta e processamento de Dados  "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ação jurídica"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Os Dados Pessoais dos Usuários podem ser utilizados para fins jurídicos pelo Proprietário em juízo ou nas etapas conducentes à possível ação jurídica decorrente de uso indevido deste Serviço (este Aplicativo) ou dos Serviços relacionados." />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="O Usuário declara estar ciente de que o Proprietário poderá ser obrigado a revelar os Dados Pessoais mediante solicitação das autoridades governamentais." />
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Informações adicionais sobre os Dados Pessoais do Usuário "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Além das informações contidas nesta política de privacidade, este Aplicativo poderá fornecer ao Usuário informações adicionais e contextuais sobre os serviços específicos ou a coleta e processamento de Dados Pessoais mediante solicitação." />
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Logs do sistema e manutenção "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Para fins de operação e manutenção, este Aplicativo e quaisquer serviços de terceiros poderão coletar arquivos que gravam a interação com este Aplicativo (logs do sistema) ou usar outros Dados Pessoais (tais como endereço IP) para esta finalidade." />
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="As informações não contidas nesta política "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mais detalhes sobre a coleta ou processamento de Dados Pessoais podem ser solicitados ao Proprietário, a qualquer momento. Favor ver as informações de contato no início deste documento." />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Como são tratados os pedidos de “Não me Rastreie” "
+                android:textStyle="bold"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Este Aplicativo não suporta pedidos de “Não Me Rastreie”. Para determinar se qualquer um dos serviços de terceiros que utiliza honram solicitações de “Não Me Rastreie”, por favor leia as políticas de privacidade." />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Mudanças nesta política de privacidade "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="O Proprietário se reserva o direito de fazer alterações nesta política de privacidade a qualquer momento, através de notificação a seus Usuários nesta página e possivelmente dentro deste Serviço (este Aplicativo) e/ou – na medida em que for técnica e juridicamente viável – enviando um aviso para os Usuários através de quaisquer informações de contato disponíveis para o Proprietário. É altamente recomendável checar esta página regularmente, consultando a data da última modificação informada na parte inferior." />
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Caso as mudanças afetem as atividades de processamento realizadas com base na anuência do Usuário, o Proprietário coletará nova anuência do Usuário, onde for exigida." />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Definições e referências jurídicas  "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Dados Pessoais (ou Dados)  "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Quaisquer informações que diretamente, indiretamente ou em relação com outras informações – incluindo um número de identificação pessoal – permitam a identificação ou identificabilidade de uma pessoa física." />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Dados de Uso "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="As informações coletadas automaticamente através deste este Aplicativo (ou serviços de terceiros contratados neste Serviço (este Aplicativo)), que podem incluir: os endereços IP ou nomes de domínio dos computadores utilizados pelos Usuários que utilizam este Aplicativo, os endereços URI (Identificador Uniforme de Recurso), a data e hora do pedido, o método utilizado para submeter o pedido ao servidor, o tamanho do arquivo recebido em resposta, o código numérico que indica o status do servidor de resposta (resultado positivo, erro , etc.), o país de origem, as características do navegador e do sistema operacional utilizado pelo Usuário, os vários detalhes de tempo por visita (por exemplo, o tempo gasto em cada página dentro do aplicativo) e os detalhes sobre o caminho seguido dentro da aplicação, com especial referência à sequência de páginas visitadas e outros parâmetros sobre o sistema operacional do dispositivo e/ou ambiente de TI do Usuário." />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Usuário"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="A pessoa que usa este Aplicativo que, a menos que especificado diferentemente, coincida com o Titular dos Dados." />
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Titular dos Dados "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="A pessoa física a quem os Dados Pessoais se referem.  " />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Processador de Dados (ou supervisor de Dados) "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="A pessoa física ou jurídica, administração pública, agência ou outro órgão que processe os Dados Pessoais em nome do Controlador conforme descrito nesta política de privacidade." />
+
+            <TextView
+                android:id="@+id/textView104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Controlador de Dados (ou Proprietário) "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="A pessoa física ou jurídica, administração pública, agência ou outro órgão que, isoladamente ou em conjunto com outros determinar as finalidades e os meios de processamento dos Dados Pessoais, incluindo medidas de segurança relativas ao funcionamento e ao uso deste Serviço (este Aplicativo). O Controlador de Dados, a menos que seja especificado de outra forma, é o Proprietário deste Serviço (este Aplicativo)." />
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Este Aplicativo "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="O meio pelo qual os Dados Pessoais do Usuário são coletados e processados.  " />
+
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Serviço"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="O serviço fornecido por este Aplicativo conforme descrito nos termos relativos (se disponíveis) e neste site/aplicativo." />
+
+            <TextView
+                android:id="@+id/textView110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="União Europeia (ou UE) "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="A menos que especificado diferentemente, todas as referências feitas neste documento à União Europeia incluem todos os atuais estados membros da União Europeia e do Espaço Econômico Europeu." />
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Informação jurídica"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Esta declaração de privacidade foi preparada com base em determinações de múltiplas legislações, inclusive os Arts. 13/14 do Regulamento (EU) 2016/679 (GDPR – Regulamento Geral de Proteção de Dados)." />
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Esta política de privacidade se refere somente a este Aplicativo, se não afirmado diferentemente neste documento." />
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Última atualização: 28 de outubro de 2022" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Relative layout as parent layout-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity">
+
+    <!-- Text view to display the
+        text "English (India)" at
+        uppermost part of the page-->
+
+    <!-- Linear layout to contain all the
+        editText, password , logo and button-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingStart="28dp"
+        android:paddingEnd="28dp"
+        tools:ignore="ExtraText">
+
+        <!-- Imageview displaying the logo
+                or name of the application-->
+
+        <!-- Edit text provided to user to
+            enter email, username or phone no.-->
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="90dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logoapplogin" />
+
+        <EditText
+            android:id="@+id/campoEmailLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/background_edit_text"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:textSize="14sp" />
+
+        <!-- Edit text provided to write
+            password (according to instagram UI)-->
+        <EditText
+            android:id="@+id/campoSenhaLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/background_edit_text"
+            android:drawableRight="@drawable/ic_baseline_remove_red_eye_24"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="14sp" />
+
+        <!-- material button is used to display the "Login" button to user-->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/botaoContato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:onClick="validarAutenticacaoUsuario"
+            android:padding="10dp"
+            android:text="Entrar"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:cornerRadius="4dp" />
+
+        <!-- Text view displaying the text
+                "Forgot your login details?"-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:onClick="abrirTelaEsqueceuASenha"
+            android:text="Esqueceu a senha?"
+            android:textSize="13sp" />
+
+        <!-- Linear layout to display the message
+            OR using view so that it can be shown separately-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="12sp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <!-- to occupy the rectangular area in left side
+                so that message can be displayed in center-->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1.5dp"
+                android:layout_weight="1"
+                android:background="#e2e2e2" />
+
+            <!-- textview displaying the message "OR"-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="OU"
+                android:textColor="#9a9a9a"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <!-- to occupy the rectangular area in right
+                side so that message can be displayed in center-->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1.5dp"
+                android:layout_weight="1"
+                android:background="#e2e2e2" />
+
+        </LinearLayout>
+
+        <!-- text view to display the
+            message "Log in with Facebook-->
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/googleSignInBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginBottom="8dp"
+        android:background="#e2e2e2" />
+
+    <!-- text view to show the message
+        "Dont have an account?Sign up-->
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        android:gravity="center_horizontal"
+        android:onClick="abrirTelaCadastro"
+        android:text="Não tem conta? Cadastre-se"
+        android:textAlignment="center"
+        android:textSize="13sp" />
+
+</RelativeLayout>
